@@ -169,7 +169,7 @@ body {
     width: 100%;
 }
 
-/* ===== Sidebar - FIXED SCROLLING ===== */
+/* ===== Sidebar - COMPLETELY SCROLLABLE ===== */
 .sidebar {
     width: 380px;
     background: var(--bg-overlay);
@@ -179,20 +179,22 @@ body {
     flex-direction: column;
     z-index: 10;
     position: relative;
+    height: 100vh;
     overflow: hidden;
 }
 
-/* Make entire sidebar scrollable */
-.sidebar-content {
+/* Make ENTIRE sidebar scrollable - EVERYTHING scrolls together */
+.sidebar-scroll-container {
     display: flex;
     flex-direction: column;
     height: 100%;
-    overflow-y: auto; /* Enable scrolling on entire sidebar */
+    overflow-y: auto;
     overflow-x: hidden;
 }
 
+/* Remove all fixed heights and let content flow naturally */
 .sidebar-header {
-    padding: var(--space-8) var(--space-6) var(--space-6);
+    padding: var(--space-4) var(--space-6) var(--space-4);
     border-bottom: 1px solid var(--border-light);
     flex-shrink: 0;
 }
@@ -286,23 +288,23 @@ body {
     color: var(--bg-primary);
 }
 
-/* ===== Tab Content ===== */
+/* ===== Tab Content - NO INDIVIDUAL SCROLLING ===== */
 .tab-content {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    flex: 1;
+    min-height: 0;
 }
 
-/* ===== Tab Sections - FIXED ===== */
+/* ===== Tab Sections - NO INDIVIDUAL SCROLLING ===== */
 .feed-section,
 .map-section,
 .feedback-section {
     display: none;
-    flex: 1;
     flex-direction: column;
-    overflow: hidden;
+    flex: 1;
     padding: var(--space-6);
+    min-height: 0;
 }
 
 .feed-section.active,
@@ -321,12 +323,11 @@ body {
     letter-spacing: 0.05em;
 }
 
-/* ===== Feed Section ===== */
+/* ===== Feed Section - NO INDIVIDUAL SCROLLING ===== */
 .feed-section {
     display: none;
-    flex: 1;
     flex-direction: column;
-    overflow: hidden;
+    flex: 1;
 }
 
 .feed-section.active {
@@ -359,10 +360,11 @@ body {
     color: var(--text-primary);
 }
 
+/* REMOVED individual scrolling from feed container */
 .feed-container {
     flex: 1;
-    overflow-y: auto;
     min-height: 0;
+    /* NO overflow-y: auto - this is the key fix! */
 }
 
 .compliments-feed {
@@ -598,6 +600,7 @@ body {
     display: flex;
     gap: var(--space-3);
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 .control-btn {
@@ -673,31 +676,10 @@ body {
     border-radius: var(--radius-lg);
 }
 
-/* Map Container Improvements - ONLY apply to map container */
-.map-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 20px;
-    background: linear-gradient(to bottom, var(--bg-primary) 0%, transparent 100%);
-    z-index: 2;
-    pointer-events: none;
-    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-}
-
+/* COMPLETELY REMOVED: Map gradient overlays */
+.map-container::before,
 .map-container::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 20px;
-    background: linear-gradient(to top, var(--bg-primary) 0%, transparent 100%);
-    z-index: 2;
-    pointer-events: none;
-    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    display: none !important;
 }
 
 /* Mapbox styling improvements */
@@ -1327,9 +1309,8 @@ body {
 /* ===== Feedback Section ===== */
 .feedback-section {
     display: none;
-    flex: 1;
     flex-direction: column;
-    overflow: hidden;
+    flex: 1;
 }
 
 .feedback-section.active {
@@ -1359,7 +1340,6 @@ body {
     flex-direction: column;
     gap: var(--space-5);
     flex: 1;
-    overflow-y: auto;
     padding-bottom: var(--space-4);
     min-height: 0;
 }
@@ -1416,7 +1396,7 @@ body {
         transform: translateX(0);
     }
     
-    .sidebar-content {
+    .sidebar-scroll-container {
         height: 100%;
         overflow-y: auto;
     }
@@ -1434,12 +1414,6 @@ body {
     
     .map {
         border-radius: 0;
-    }
-    
-    /* FIXED: Remove map overlay effects on mobile */
-    .map-container::before,
-    .map-container::after {
-        display: none;
     }
     
     .stats-grid {
@@ -1540,152 +1514,58 @@ body {
     }
 }
 
-@media (max-width: 480px) {
-    .sidebar-nav {
-        padding: 0 var(--space-4);
-    }
-    
-    .stats-grid {
-        padding: var(--space-3);
-        grid-template-columns: 1fr;
-    }
-    
-    .floating-stats {
-        flex-direction: column;
-        gap: var(--space-2);
-        right: var(--space-3);
-        top: calc(var(--space-3) + 60px); /* Account for mobile header */
-    }
-    
-    .search-container {
-        width: calc(100% - var(--space-6));
-    }
-    
-    .popup-content {
-        min-width: 220px;
-        padding: var(--space-3);
-    }
-
-    .mobile-action-btn {
-        width: 50px;
-        height: 50px;
-        bottom: var(--space-4);
-        right: var(--space-4);
-        font-size: var(--font-size-xl);
-    }
-
-    /* Improved modal for very small screens */
-    .modal-content {
-        margin: var(--space-2);
-        width: calc(100% - var(--space-4));
-    }
-
-    .compliment-form .textarea {
-        min-height: 100px;
-    }
+/* ===== NUCLEAR FIX - REMOVE ALL INDIVIDUAL SCROLLING ===== */
+.sidebar {
+    height: 100vh !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
-/* Portrait orientation specific fixes */
-@media (max-width: 768px) and (orientation: portrait) {
-    .layout {
-        flex-direction: column;
-    }
+.sidebar-scroll-container {
+    height: 100% !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
-/* Landscape orientation specific fixes */
-@media (max-width: 768px) and (orientation: landscape) {
-    .mobile-header {
-        height: 50px;
-    }
-    
-    .layout {
-        margin-top: 50px;
-        height: calc(100vh - 50px);
-    }
-    
-    .sidebar {
-        top: 50px;
-        height: calc(100vh - 50px);
-    }
-    
-    .floating-stats {
-        top: calc(var(--space-4) + 50px); /* Account for smaller mobile header */
-    }
+.sidebar-header,
+.stats-grid,
+.sidebar-nav {
+    flex-shrink: 0 !important;
 }
 
-/* Prevent zoom on input for iOS */
-@media (max-width: 768px) {
-    input,
-    textarea,
-    select {
-        font-size: 16px;
-    }
+.tab-content {
+    flex: 1 !important;
+    min-height: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
-/* Enhanced touch interactions */
-@media (hover: none) and (pointer: coarse) {
-    .compliment-card:hover {
-        transform: none;
-    }
-    
-    .marker:hover {
-        transform: none;
-    }
-    
-    .control-btn:hover,
-    .nav-item:hover {
-        background: var(--bg-elevated);
-        color: var(--text-primary);
-    }
-    
-    .control-btn.primary:hover {
-        background: var(--primary);
-        color: var(--bg-primary);
-    }
-}
-
-/* Safe area insets for modern phones */
-@supports (padding: max(0px)) {
-    .mobile-header {
-        padding-left: max(var(--space-4), env(safe-area-inset-left));
-        padding-right: max(var(--space-4), env(safe-area-inset-right));
-        padding-top: env(safe-area-inset-top);
-        height: calc(60px + env(safe-area-inset-top));
-    }
-    
-    .layout {
-        margin-top: calc(60px + env(safe-area-inset-top));
-        height: calc(100vh - 60px - env(safe-area-inset-top));
-    }
-    
-    .sidebar {
-        top: calc(60px + env(safe-area-inset-top));
-        height: calc(100vh - 60px - env(safe-area-inset-top));
-    }
-    
-    .map-container {
-        padding-bottom: env(safe-area-inset-bottom);
-    }
-    
-    .mobile-action-btn {
-        bottom: calc(var(--space-6) + env(safe-area-inset-bottom));
-    }
-    
-    .floating-stats {
-        top: calc(var(--space-4) + 60px + env(safe-area-inset-top));
-    }
-}
-
-/* ===== Utility Classes ===== */
-.hidden {
+.feed-section,
+.map-section,
+.feedback-section {
+    flex: 1 !important;
+    min-height: 0 !important;
     display: none !important;
+    flex-direction: column !important;
 }
 
-.fade-in {
-    animation: fadeIn 0.3s ease;
+.feed-section.active,
+.map-section.active,
+.feedback-section.active {
+    display: flex !important;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+/* KEY FIX: Remove individual scrolling from feed container */
+.feed-container {
+    flex: 1 !important;
+    min-height: 0 !important;
+    /* NO overflow-y: auto - this allows main container to scroll */
+}
+
+/* Remove any individual scrolling from feedback form */
+.feedback-form {
+    overflow-y: visible !important;
 }
