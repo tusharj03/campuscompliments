@@ -1299,17 +1299,30 @@ body {
 
 /* ===== Feedback Section ===== */
 .feedback-section {
-    padding: var(--space-6);
+    display: none;
     flex: 1;
-    display: flex;
     flex-direction: column;
     overflow: hidden;
+}
+
+.feedback-section.active {
+    display: flex;
 }
 
 .feedback-header {
     text-align: center;
     margin-bottom: var(--space-6);
     flex-shrink: 0;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-5);
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: var(--space-4);
+    min-height: 0; /* Important for flexbox scrolling */
 }
 
 .feedback-header h3 {

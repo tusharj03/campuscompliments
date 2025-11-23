@@ -22,7 +22,7 @@
         <!-- Background Texture -->
         <div class="texture-overlay"></div>
 
-        <!-- Mobile Header - Only shows on mobile -->
+        <!-- Mobile Header -->
         <div class="mobile-header">
             <div class="mobile-logo">
                 <h1>Campus Compliments</h1>
@@ -36,118 +36,113 @@
 
         <!-- Main Layout -->
         <div class="layout">
-            <!-- Sidebar - Always visible on desktop, overlay on mobile -->
+            <!-- Sidebar -->
             <aside class="sidebar" id="sidebar">
-                <div class="sidebar-content">
-                    <div class="sidebar-header">
-                        <div class="logo">
-                            <div class="logo-text">
-                                <h1>Campus Compliments</h1>
-                                <p>Spread kindness across UIUC</p>
-                            </div>
+                <div class="sidebar-header">
+                    <div class="logo">
+                        <div class="logo-text">
+                            <h1>Campus Compliments</h1>
+                            <p>Spread kindness across UIUC</p>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Stats -->
-                    <div class="stats-grid">
-                        <div class="stat-card">
-                            <div class="stat-info">
-                                <div class="stat-number" id="totalCompliments">0</div>
-                                <div class="stat-label">Compliments</div>
-                            </div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-info">
-                                <div class="stat-number" id="activeLocations">0</div>
-                                <div class="stat-label">Buildings</div>
-                            </div>
+                <!-- Stats -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-info">
+                            <div class="stat-number" id="totalCompliments">0</div>
+                            <div class="stat-label">Compliments</div>
                         </div>
                     </div>
+                    <div class="stat-card">
+                        <div class="stat-info">
+                            <div class="stat-number" id="activeLocations">0</div>
+                            <div class="stat-label">Buildings</div>
+                        </div>
+                    </div>
+                </div>
 
-                    <!-- Navigation -->
-                    <nav class="sidebar-nav">
-                        <button class="nav-item" data-tab="feed">
-                            <span class="nav-text">Feed</span>
-                        </button>
-                        <button class="nav-item active" data-tab="map">
-                            <span class="nav-text">Map</span>
-                        </button>
-                        <button class="nav-item" data-tab="feedback">
-                            <span class="nav-text">Feedback</span>
-                        </button>
-                    </nav>
+                <!-- Navigation -->
+                <nav class="sidebar-nav">
+                    <button class="nav-item" data-tab="feed">
+                        <span class="nav-text">Feed</span>
+                    </button>
+                    <button class="nav-item active" data-tab="map">
+                        <span class="nav-text">Map</span>
+                    </button>
+                    <button class="nav-item" data-tab="feedback">
+                        <span class="nav-text">Feedback</span>
+                    </button>
+                </nav>
 
-                    <!-- Tab Content -->
-                    <div class="tab-content">
-                        <!-- Feed Section -->
-                        <div class="feed-section active" data-tab="feed">
-                            <div class="feed-header">
-                                <h3>Recent Activity</h3>
-                                <button id="refreshFeed" class="icon-btn">Refresh</button>
-                            </div>
-                            <div class="search-container">
-                                <div class="search-box">
-                                    <input type="text" id="searchInput" placeholder="Search compliments...">
-                                    <button id="clearSearch" class="clear-search">×</button>
-                                </div>
-                            </div>
-                            <div class="feed-container">
-                                <div id="complimentsContainer" class="compliments-feed">
-                                    <!-- Compliments will load here -->
-                                </div>
+                <!-- Feed Section -->
+                <div class="feed-section active" data-tab="feed">
+                    <div class="feed-header">
+                        <h3>Recent Activity</h3>
+                        <button id="refreshFeed" class="icon-btn">Refresh</button>
+                    </div>
+                    <div class="search-container">
+                        <div class="search-box">
+                            <input type="text" id="searchInput" placeholder="Search compliments...">
+                            <button id="clearSearch" class="clear-search">×</button>
+                        </div>
+                    </div>
+                    <div class="feed-container">
+                        <div id="complimentsContainer" class="compliments-feed">
+                            <!-- Compliments will load here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Section -->
+                <div class="map-section" data-tab="map">
+                    <h3>Campus Map</h3>
+                    <div class="map-controls">
+                        <button id="dropPinBtn" class="control-btn primary">
+                            Drop a Pin
+                        </button>
+                        <button id="locateBtn" class="control-btn">
+                            Find My Location
+                        </button>
+                        <button id="themeToggle" class="control-btn">
+                            Toggle Theme
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Feedback Section -->
+                <div class="feedback-section" data-tab="feedback">
+                    <div class="feedback-header">
+                        <h3>Share Your Feedback</h3>
+                        <p>Help us improve Campus Compliments</p>
+                    </div>
+                    <div class="feedback-form">
+                        <div class="form-group">
+                            <label>Your Feedback</label>
+                            <textarea 
+                                id="feedbackText" 
+                                class="form-input textarea" 
+                                placeholder="What do you love? What can we improve?..."
+                                maxlength="500"
+                                rows="4"
+                            ></textarea>
+                            <div class="form-meta">
+                                <span class="char-count"><span id="feedbackCharCount">0</span>/500</span>
                             </div>
                         </div>
-
-                        <!-- Map Section -->
-                        <div class="map-section" data-tab="map">
-                            <h3>Campus Map</h3>
-                            <div class="map-controls">
-                                <button id="dropPinBtn" class="control-btn primary">
-                                    Drop a Pin
-                                </button>
-                                <button id="locateBtn" class="control-btn">
-                                    Find My Location
-                                </button>
-                                <button id="themeToggle" class="control-btn">
-                                    Toggle Theme
-                                </button>
-                            </div>
+                        <div class="form-group">
+                            <label>Email (optional)</label>
+                            <input 
+                                type="email" 
+                                id="feedbackEmail" 
+                                class="form-input" 
+                                placeholder="your.email@illinois.edu"
+                            >
                         </div>
-
-                        <!-- Feedback Section -->
-                        <div class="feedback-section" data-tab="feedback">
-                            <div class="feedback-header">
-                                <h3>Share Your Feedback</h3>
-                                <p>Help us improve Campus Compliments</p>
-                            </div>
-                            <div class="feedback-form">
-                                <div class="form-group">
-                                    <label>Your Feedback</label>
-                                    <textarea 
-                                        id="feedbackText" 
-                                        class="form-input textarea" 
-                                        placeholder="What do you love? What can we improve?..."
-                                        maxlength="500"
-                                        rows="4"
-                                    ></textarea>
-                                    <div class="form-meta">
-                                        <span class="char-count"><span id="feedbackCharCount">0</span>/500</span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Email (optional)</label>
-                                    <input 
-                                        type="email" 
-                                        id="feedbackEmail" 
-                                        class="form-input" 
-                                        placeholder="your.email@illinois.edu"
-                                    >
-                                </div>
-                                <button id="submitFeedback" class="confirm-btn">
-                                    Send Feedback
-                                </button>
-                            </div>
-                        </div>
+                        <button id="submitFeedback" class="confirm-btn">
+                            Send Feedback
+                        </button>
                     </div>
                 </div>
             </aside>
