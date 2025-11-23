@@ -1,0 +1,5269 @@
+{
+  "buildings": [
+    {
+      "buildingCode": "0001",
+      "buildingName": "Davenport Hall",
+      "address": "607 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801",
+      "description": "Historic building housing the College of Liberal Arts & Sciences administration. Known for its beautiful architecture and central campus location."
+    },
+    {
+      "buildingCode": "0002",
+      "buildingName": "College of Fine and Applied Arts Performing Arts Annex",
+      "address": "1301 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0003",
+      "buildingName": "McKinley Health Center",
+      "address": "1109 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0004",
+      "buildingName": "Harding Band Building",
+      "address": "1103 south sixth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0005",
+      "buildingName": "Gym Annex",
+      "address": "1402 springfield avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0006",
+      "buildingName": "Armory",
+      "address": "505 east armory avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0007",
+      "buildingName": "Foellinger Auditorium",
+      "address": "709 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0008",
+      "buildingName": "Agricultural Engineering Sciences Building",
+      "address": "1304 west pennsylvania avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0010",
+      "buildingName": "Chemistry Annex",
+      "address": "601 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0011",
+      "buildingName": "Ceramics Kiln House",
+      "address": "107 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0012",
+      "buildingName": "Noyes Laboratory of Chemistry",
+      "address": "505 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0013",
+      "buildingName": "Talbot Laboratory",
+      "address": "104 south wright street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0014",
+      "buildingName": "Ice Arena",
+      "address": "406 east armory avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0015",
+      "buildingName": "Engineering Hall",
+      "address": "1308 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0017",
+      "buildingName": "Advanced Computation Building",
+      "address": "1011 springfield avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0018",
+      "buildingName": "Architecture Annex",
+      "address": "1303 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0020",
+      "buildingName": "Physiology Research Laboratory",
+      "address": "301 hazelwood drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0021",
+      "buildingName": "H.E. Kenney Gymnasium",
+      "address": "1406 springfield avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0023",
+      "buildingName": "Illini Union",
+      "address": "1401 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0024",
+      "buildingName": "Nathan M. Newmark Civil Engineering Laboratory",
+      "address": "205 north mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0025",
+      "buildingName": "Oliver Albert Harker Hall",
+      "address": "1305 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0026",
+      "buildingName": "Altgeld Hall",
+      "address": "1409 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0027",
+      "buildingName": "Lincoln Hall",
+      "address": "702 south wright street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0029",
+      "buildingName": "Mechanical Engineering Laboratory",
+      "address": "105 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0031",
+      "buildingName": "Dynamics Testing Laboratory",
+      "address": "609 east curtis road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0032",
+      "buildingName": "Natural History Building",
+      "address": "1301 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0033",
+      "buildingName": "Observatory",
+      "address": "901 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0034",
+      "buildingName": "Materials Science and Engineering Building",
+      "address": "1304 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0037",
+      "buildingName": "William L. Everitt Laboratory",
+      "address": "1406 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0039",
+      "buildingName": "Music Building",
+      "address": "1114 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0040",
+      "buildingName": "Stock Pavilion",
+      "address": "1402 west pennsylvania avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0041",
+      "buildingName": "Main Library",
+      "address": "1408 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0042",
+      "buildingName": "Transportation Building",
+      "address": "104 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0043",
+      "buildingName": "Gregory Hall",
+      "address": "810 south wright street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0044",
+      "buildingName": "English Building",
+      "address": "608 south wright street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0046",
+      "buildingName": "David Dodds Henry Administration Building",
+      "address": "506 south wright street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0048",
+      "buildingName": "Nuclear Radiation Laboratory",
+      "address": "201 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0050",
+      "buildingName": "Architecture Building",
+      "address": "608 lorado taft drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0052",
+      "buildingName": "Krannert Center for Performing Arts",
+      "address": "500 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0054",
+      "buildingName": "David Kinley Hall",
+      "address": "1407 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0055",
+      "buildingName": "Ceramics Building",
+      "address": "105 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0056",
+      "buildingName": "Victor E. Shelford Vivarium",
+      "address": "606 east healey street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0058",
+      "buildingName": "George Huff Hall",
+      "address": "1206 south fourth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0059",
+      "buildingName": "Richard D. and Anne Marie Irwin Doctoral Study Hall",
+      "address": "607 gregory drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0060",
+      "buildingName": "Smith Memorial Hall",
+      "address": "805 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0061",
+      "buildingName": "University High School",
+      "address": "1212 springfield avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0062",
+      "buildingName": "Child Development Laboratory",
+      "address": "1105 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0063",
+      "buildingName": "University High School Gymnasium",
+      "address": "1207 stoughton street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0064",
+      "buildingName": "Louise Freer Hall",
+      "address": "906 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0066",
+      "buildingName": "Frederick Seitz Materials Research Laboratory",
+      "address": "104 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0067",
+      "buildingName": "Loomis Laboratory of Physics",
+      "address": "1110 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0068",
+      "buildingName": "Horticulture Field Laboratory",
+      "address": "1707 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0069",
+      "buildingName": "Mumford Hall",
+      "address": "1301 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0070",
+      "buildingName": "Chemical & Life Sciences Laboratory",
+      "address": "601 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0071",
+      "buildingName": "Student Services Arcade Building",
+      "address": "715 south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0072",
+      "buildingName": "Gies Memorial Stadium",
+      "address": "1402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0073",
+      "buildingName": "Agricultural Bioprocess Laboratory",
+      "address": "1302 west pennsylvania avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0074",
+      "buildingName": "Institute of Government and Public Affairs Building",
+      "address": "1007 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0075",
+      "buildingName": "Children's Research Center",
+      "address": "2202 kirk drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0076",
+      "buildingName": "Psychology Laboratory",
+      "address": "603 east daniel street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0077",
+      "buildingName": "Plant Services Building – Northeast",
+      "address": "107 south gregory street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0078",
+      "buildingName": "Snyder Hall",
+      "address": "206 east peabody drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0079",
+      "buildingName": "Scott Hall",
+      "address": "202 east peabody drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0080",
+      "buildingName": "Weston Hall",
+      "address": "204 east peabody drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0084",
+      "buildingName": "Hopkins Hall",
+      "address": "1208 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0086",
+      "buildingName": "Lundgren Hall",
+      "address": "1201 south fourth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0087",
+      "buildingName": "Clark Hall",
+      "address": "1203 south fourth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0088",
+      "buildingName": "Barton Hall",
+      "address": "1205 south fourth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0089",
+      "buildingName": "Flagg Hall",
+      "address": "1207 south fourth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0090",
+      "buildingName": "Noble Hall",
+      "address": "1209 south fourth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0091",
+      "buildingName": "Van Doren Hall",
+      "address": "1215 south fourth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0092",
+      "buildingName": "Taft Hall",
+      "address": "1213 south fourth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0094",
+      "buildingName": "Alice Campbell Alumni Center",
+      "address": "601 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0095",
+      "buildingName": "Superconductivity Center",
+      "address": "100 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0097",
+      "buildingName": "Sixth and John Streets Parking Structure, C7",
+      "address": "517 east john street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0099",
+      "buildingName": "Archives and Special Collections",
+      "address": "1402 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0100",
+      "buildingName": "President's House",
+      "address": "711 west florida avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0101",
+      "buildingName": "Blaisdell Hall",
+      "address": "901 west pennsylvania avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0102",
+      "buildingName": "Saunders Hall",
+      "address": "902 college court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0103",
+      "buildingName": "Babcock Hall",
+      "address": "1002 college court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0104",
+      "buildingName": "Carr Hall",
+      "address": "1001 west pennsylvania avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0105",
+      "buildingName": "Pennsylvania Lounge Building",
+      "address": "906 college court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0106",
+      "buildingName": "Illini Union Bookstore",
+      "address": "807 south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0108",
+      "buildingName": "Computing Applications Building",
+      "address": "605 east springfield avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0109",
+      "buildingName": "Natural Resources Building",
+      "address": "607 peabody drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0110",
+      "buildingName": "Nuclear Physics Laboratory",
+      "address": "23 stadium drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0111",
+      "buildingName": "Mary E. Busey Hall",
+      "address": "1111 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0112",
+      "buildingName": "Sidney Lu Mechanical Engineering Building",
+      "address": "1206 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0115",
+      "buildingName": "Laura B. Evans Hall",
+      "address": "1115 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0116",
+      "buildingName": "Roger Adams Laboratory",
+      "address": "600 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0117",
+      "buildingName": "Nuclear Engineering Laboratory",
+      "address": "103 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0118",
+      "buildingName": "Activities & Recreation Center",
+      "address": "201 east peabody drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0120",
+      "buildingName": "William Lamont Abbott Power Plant",
+      "address": "1117 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0121",
+      "buildingName": "FSI – Firemanship Training Facilities",
+      "address": "11 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0122",
+      "buildingName": "Radio Transmitter Station",
+      "address": "2520 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0124",
+      "buildingName": "National Soybean Research Center",
+      "address": "1101 peabody drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0125",
+      "buildingName": "Mumford House",
+      "address": "1403 lorado taft drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0126",
+      "buildingName": "Margaret H. and William E. Levis Faculty Center",
+      "address": "919 west illinois street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0128",
+      "buildingName": "Geological Survey Laboratory",
+      "address": "1116 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0130",
+      "buildingName": "Coble Hall",
+      "address": "801 south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0131",
+      "buildingName": "Turner Hall Greenhouses",
+      "address": "1102 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0133",
+      "buildingName": "Natural Resources Garage",
+      "address": "608 pennsylvania avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0134",
+      "buildingName": "Natural History Survey Greenhouse",
+      "address": "614 pennsylvania avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0136",
+      "buildingName": "Student-Staff Apartments – 300 S Goodwin",
+      "address": "300 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0137",
+      "buildingName": "Student-Staff Apartments #2 – Green and Goodwin",
+      "address": "1107 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0138",
+      "buildingName": "Burrill Hall",
+      "address": "407 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0140",
+      "buildingName": "Dr. John A. Coyne South Clinic",
+      "address": "2100 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0141",
+      "buildingName": "Lincoln Avenue Residence Hall",
+      "address": "1005 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0142",
+      "buildingName": "Allen Residence Hall",
+      "address": "1005 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0144",
+      "buildingName": "Dalkey Archive Press (PSSB)",
+      "address": "1805 south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0146",
+      "buildingName": "1205 W Nevada St",
+      "address": "1205 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0148",
+      "buildingName": "Coordinated Science Laboratory",
+      "address": "1308 west main street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0151",
+      "buildingName": "1204 W Nevada St",
+      "address": "1204 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0152",
+      "buildingName": "Civil and Environmental Engineering Building",
+      "address": "301 north mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0154",
+      "buildingName": "Personnel Services Building",
+      "address": "52 gregory drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0155",
+      "buildingName": "Volatile Storage Building",
+      "address": "505 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0156",
+      "buildingName": "Law Building",
+      "address": "504 pennsylvania avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0157",
+      "buildingName": "African American Studies",
+      "address": "1201 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0158",
+      "buildingName": "Bevier Hall",
+      "address": "905 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0159",
+      "buildingName": "Wohlers Hall",
+      "address": "1206 south sixth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0160",
+      "buildingName": "Education Building",
+      "address": "1310 south sixth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0161",
+      "buildingName": "1401 S Maryland Dr",
+      "address": "1401 maryland drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0162",
+      "buildingName": "Engineering Senior Design Laboratory",
+      "address": "113 south gregory street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0163",
+      "buildingName": "Plant Services Storage Building",
+      "address": "115 south gregory street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0164",
+      "buildingName": "Structural Warehouse",
+      "address": "117 south gregory street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0165",
+      "buildingName": "Animal Sciences Laboratory",
+      "address": "1207 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0166",
+      "buildingName": "State Farm Center",
+      "address": "1800 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0170",
+      "buildingName": "Central Receiving Building",
+      "address": "1609 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0171",
+      "buildingName": "Meat Science Laboratory",
+      "address": "1503 maryland drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0172",
+      "buildingName": "Literatures, Cultures and Linguistics Building",
+      "address": "707 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0174",
+      "buildingName": "Engineering Sciences Building",
+      "address": "1101 springfield avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0176",
+      "buildingName": "Rehabilitation Education Center",
+      "address": "1207 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0178",
+      "buildingName": "Mailing Center – 1611 S Oak",
+      "address": "1611 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0179",
+      "buildingName": "Seward Staley Illini Grove",
+      "address": "905 west pennsylvania avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0180",
+      "buildingName": "Student Staff Air Conditioning Center",
+      "address": "1109 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0181",
+      "buildingName": "Arthur Hill Daniels Hall",
+      "address": "1010 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0183",
+      "buildingName": "Wood Engineering Laboratory",
+      "address": "1305 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0184",
+      "buildingName": "1208 W Nevada St",
+      "address": "1208 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0185",
+      "buildingName": "H.P. Gas Regulating and Reducing Station",
+      "address": "100 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0187",
+      "buildingName": "Entomology Laboratory",
+      "address": "1902 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0188",
+      "buildingName": "Fred H. Turner Student Services Building",
+      "address": "610 east john street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0192",
+      "buildingName": "Medical Sciences Building",
+      "address": "506 south mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0193",
+      "buildingName": "Swanlund Administration Building",
+      "address": "601 east john street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0194",
+      "buildingName": "USDA Nematology Greenhouse",
+      "address": "1105 dorner drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0195",
+      "buildingName": "1203 W Nevada St",
+      "address": "1203 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0196",
+      "buildingName": "Optical Physics and Engineering Building",
+      "address": "607 east healey street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0197",
+      "buildingName": "Jonathan Baldwin Turner Hall",
+      "address": "1102 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0198",
+      "buildingName": "Physical Plant Service Building",
+      "address": "1501 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0201",
+      "buildingName": "Garage and Car Pool",
+      "address": "1701 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0202",
+      "buildingName": "Horticulture Field Lab Steel Building",
+      "address": "1801 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0204",
+      "buildingName": "Hydrogen Liquefier Building",
+      "address": "1301 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0206",
+      "buildingName": "Illinois Sustainable Technology Center",
+      "address": "1 hazelwood drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0207",
+      "buildingName": "1203 1/2 W Nevada St",
+      "address": "1203 1/2 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0208",
+      "buildingName": "103 S Gregory St",
+      "address": "103 south gregory street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0209",
+      "buildingName": "Speech and Hearing Science",
+      "address": "901 south sixth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0210",
+      "buildingName": "Digital Computer Laboratory",
+      "address": "1304 springfield avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0213",
+      "buildingName": "Environmental Health and Safety Building",
+      "address": "101 south gregory street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0217",
+      "buildingName": "Housing Food Stores",
+      "address": "1321 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0218",
+      "buildingName": "School of Labor and Employment Relations",
+      "address": "504 east armory avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0219",
+      "buildingName": "Art and Design Building",
+      "address": "408 peabody drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0220",
+      "buildingName": "Krannert Art Museum",
+      "address": "500 peabody drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0221",
+      "buildingName": "805 W Pennsylvania Ave",
+      "address": "805 west pennsylvania avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0222",
+      "buildingName": "Printing and Photographic Services Building",
+      "address": "55 east armory avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0224",
+      "buildingName": "1205 W Oregon St",
+      "address": "1205 west oregon street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0228",
+      "buildingName": "Arnold O. and Mabel M. Beckman Institute for Advanced Science and Technology",
+      "address": "405 north mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0230",
+      "buildingName": "Orchard Downs Laundry – North",
+      "address": "1900 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0232",
+      "buildingName": "North Campus Chiller Plant",
+      "address": "305 north mathews avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0233",
+      "buildingName": "Housing Maintenance Shop",
+      "address": "511 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0236",
+      "buildingName": "Orchard Downs Laundry – South",
+      "address": "2050 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0237",
+      "buildingName": "Nick Holonyak, Jr. Micro and Nanotechnology Laboratory",
+      "address": "208 north wright street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0238",
+      "buildingName": "1207 W Oregon St",
+      "address": "1207 west oregon street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0242",
+      "buildingName": "Morrill Hall",
+      "address": "505 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0243",
+      "buildingName": "508 S Sixth St",
+      "address": "508 south sixth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0244",
+      "buildingName": "Universal Waste System Building",
+      "address": "1309 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0247",
+      "buildingName": "625 S. Wright St. – Suite 103, 201",
+      "address": "625 south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0249",
+      "buildingName": "Orchard Downs Community Building",
+      "address": "509 george huff court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0250",
+      "buildingName": "912 S Fifth St",
+      "address": "912 south fifth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0252",
+      "buildingName": "Housing Warehouse",
+      "address": "511 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0255",
+      "buildingName": "University Press Building",
+      "address": "1325 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0256",
+      "buildingName": "Plant Sciences Laboratory",
+      "address": "1201 dorner drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0257",
+      "buildingName": "The Richard T. Ubben Basketball Complex",
+      "address": "500 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0268",
+      "buildingName": "Dance Studio",
+      "address": "905 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0270",
+      "buildingName": "Waste Transfer & Mat. Recovery Facility",
+      "address": "10 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0272",
+      "buildingName": "Ruth A. Wardall Hall",
+      "address": "1012 west illinois street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0273",
+      "buildingName": "Edgar Jerome Townsend Hall",
+      "address": "918 west illinois street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0275",
+      "buildingName": "Food Service Building",
+      "address": "1010 west illinois street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0276",
+      "buildingName": "Library Air Conditioning Center",
+      "address": "608 gregory drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0277",
+      "buildingName": "Police Training Institute – Tactical Training Center",
+      "address": "609 1/2 east curtis road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0280",
+      "buildingName": "University of Illinois Employees Credit Union",
+      "address": "2201 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0281",
+      "buildingName": "Administrative Information Technology Building",
+      "address": "50 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0282",
+      "buildingName": "State Regional Office Building",
+      "address": "2125 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0283",
+      "buildingName": "FSI – Maintenance Facility",
+      "address": "8 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0287",
+      "buildingName": "Clinical Skills Learning Center",
+      "address": "1102 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0288",
+      "buildingName": "Physics Research Lab Storage Building",
+      "address": "23 stadium drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0289",
+      "buildingName": "Water Survey Research Center #2",
+      "address": "30 bailey drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0290",
+      "buildingName": "FSI – Fire Station",
+      "address": "9 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0291",
+      "buildingName": "Stuart Pratt Sherman Hall",
+      "address": "909 south fifth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0292",
+      "buildingName": "Veterinary Teaching Hospital",
+      "address": "1008 west hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0294",
+      "buildingName": "FSI – Classroom/Office",
+      "address": "11 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0295",
+      "buildingName": "Leah Fullenwider Trelease Hall",
+      "address": "901 college court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0296",
+      "buildingName": "Richard J. Oglesby Hall",
+      "address": "1005 college court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0297",
+      "buildingName": "Food Service Building – FAR",
+      "address": "1001 college court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0298",
+      "buildingName": "Physical Plant Storage Building A",
+      "address": "1501 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0299",
+      "buildingName": "Police Training Institute – Storage Building",
+      "address": "609 1/2 east curtis road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0300",
+      "buildingName": "Astronomy Building",
+      "address": "1002 west green street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0301",
+      "buildingName": "CERL – Main Building 1",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0302",
+      "buildingName": "FSI – Northwest Storage Building",
+      "address": "6 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0305",
+      "buildingName": "ISGS Core Storage Building #2",
+      "address": "1835 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0306",
+      "buildingName": "College of Fine and Applied Arts Design Research Laboratory",
+      "address": "1 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0307",
+      "buildingName": "Biological Control Laboratory",
+      "address": "1904 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0309",
+      "buildingName": "Natural History Survey Storage B #4",
+      "address": "1823 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0311",
+      "buildingName": "Natural History Survey Storage B #3",
+      "address": "1833 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0312",
+      "buildingName": "Natural History Survey Storage B #2",
+      "address": "1831 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0313",
+      "buildingName": "Natural History Survey Storage B #1",
+      "address": "1821 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0314",
+      "buildingName": "Building Research Council Laboratory",
+      "address": "1804 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0315",
+      "buildingName": "ISGS Core Lab",
+      "address": "1825 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0316",
+      "buildingName": "Illinois Field Press Box",
+      "address": "601 east kirby avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0319",
+      "buildingName": "Engineering Senior Design Lab Annex",
+      "address": "111 south gregory street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0321",
+      "buildingName": "Natural Resource Studies Annex",
+      "address": "1910 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0323",
+      "buildingName": "Public Safety Building",
+      "address": "1110 springfield avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0324",
+      "buildingName": "Grainger Engineering Library Information Center",
+      "address": "1301 springfield avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0325",
+      "buildingName": "Natural History Survey Storage B #5",
+      "address": "1817 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0326",
+      "buildingName": "Agriculture Services Building",
+      "address": "1917 south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0327",
+      "buildingName": "South Studio #2 (Sculpture Building)",
+      "address": "2122 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0328",
+      "buildingName": "South Studio #1 (Art Studio)",
+      "address": "2128 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0329",
+      "buildingName": "Agriculture Services Warehouse",
+      "address": "1919a south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0330",
+      "buildingName": "Illinois State Archaeological Survey Repository",
+      "address": "2127 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0331",
+      "buildingName": "School of Information Sciences Building",
+      "address": "501 east daniel street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0332",
+      "buildingName": "Erlanger House",
+      "address": "303 indiana avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0336",
+      "buildingName": "Edward R. Madigan Laboratory",
+      "address": "1201 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0337",
+      "buildingName": "Paleobotanical Building",
+      "address": "2115 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0338",
+      "buildingName": "South Studio #3 (Glass Sculpture Building)",
+      "address": "2116 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0339",
+      "buildingName": "Temple Hoyne Buell Hall",
+      "address": "611 lorado taft drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0341",
+      "buildingName": "Veterinary Medicine Feed Storage Building",
+      "address": "2105 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0347",
+      "buildingName": "4 Gerty Dr",
+      "address": "4 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0350",
+      "buildingName": "Veterinary Medicine Basic Sciences Building",
+      "address": "2001 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0352",
+      "buildingName": "Veterinary Medicine Chiller Plant",
+      "address": "1009 saint mary's road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0354",
+      "buildingName": "Japan House",
+      "address": "2000 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0358",
+      "buildingName": "Police Training Institute – 1004 S Fourth St",
+      "address": "1004 south fourth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0360",
+      "buildingName": "Atkins Tennis Center",
+      "address": "1751 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0364",
+      "buildingName": "Campus Recreation Center – East",
+      "address": "1102 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0365",
+      "buildingName": "Dance Administration Building",
+      "address": "907 1/2 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0366",
+      "buildingName": "South Studio #4 (Ceramics Facility)",
+      "address": "2110 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0367",
+      "buildingName": "901 W Oregon St",
+      "address": "901 west oregon street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0369",
+      "buildingName": "International Studies Building",
+      "address": "910 south fifth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0370",
+      "buildingName": "South Studio #5 (Graduate Photography)",
+      "address": "2108 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0371",
+      "buildingName": "South Studio #7 (General Arts Building)",
+      "address": "2111 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0372",
+      "buildingName": "Special Materials Storage Facility",
+      "address": "2006 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0373",
+      "buildingName": "The William R. and Clarice V. Spurlock Museum",
+      "address": "600 south gregory street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0375",
+      "buildingName": "South Studio #6 (Graduate Painting Facility)",
+      "address": "2109 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0376",
+      "buildingName": "Campbell Hall for Public Telecommunication",
+      "address": "300 north goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0377",
+      "buildingName": "ACES Library, Information, and Alumni Center",
+      "address": "1101 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0378",
+      "buildingName": "Office of Admissions and Records Building",
+      "address": "901 west illinois street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0379",
+      "buildingName": "Bielfeldt Athletic Administration Building",
+      "address": "1700 south fourth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0380",
+      "buildingName": "Campus Recreation Bike Center",
+      "address": "51 gregory drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0381",
+      "buildingName": "Irwin Academic Services Center",
+      "address": "402 east armory avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0385",
+      "buildingName": "Golf Course Driving Range Building",
+      "address": "800 hartwell drive",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0386",
+      "buildingName": "Golf Course Maintenance Building",
+      "address": "800 hartwell drive",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0387",
+      "buildingName": "Golf Course Cart Storage",
+      "address": "800 hartwell drive",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0388",
+      "buildingName": "Golf Course Cart Storage",
+      "address": "800 hartwell drive",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0389",
+      "buildingName": "Golf Course Pro Shop",
+      "address": "800 hartwell drive",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0390",
+      "buildingName": "Golf Course Pump House #1",
+      "address": "800 hartwell drive",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0391",
+      "buildingName": "Golf Course Pump House #2",
+      "address": "800 hartwell drive",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0392",
+      "buildingName": "Golf Course Superintendent Home",
+      "address": "800 hartwell drive",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0398",
+      "buildingName": "Physical Plant Storage Building B",
+      "address": "1501 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0400",
+      "buildingName": "Spray Containment Building (Golf Course)",
+      "address": "800 hartwell drive",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0401",
+      "buildingName": "Animal Science Air Conditioning Center",
+      "address": "1201 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0407",
+      "buildingName": "Irwin Indoor Football Facility, Division of Intercollegiate Athletics",
+      "address": "301 peabody drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0409",
+      "buildingName": "Electrical and Computer Engineering Building",
+      "address": "306 north wright street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0507",
+      "buildingName": "1817/1819 S Neil St",
+      "address": "1817 south neil street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0523",
+      "buildingName": "201 W Curtis Rd",
+      "address": "201 west curtis road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0528",
+      "buildingName": "631 E Green St, 703/709 S Wright St",
+      "address": "631 east green street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0530",
+      "buildingName": "Durst Building",
+      "address": "1112 west university avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0540",
+      "buildingName": "200 S Wacker Dr",
+      "address": "200 south wacker drive",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60606"
+    },
+    {
+      "buildingCode": "0543",
+      "buildingName": "Vermilion River Observatory Antenna Office Facility",
+      "address": "13589 south union road",
+      "city": "Danville",
+      "state": "IL",
+      "zipCode": "61834"
+    },
+    {
+      "buildingCode": "0544",
+      "buildingName": "Vermilion River Observatory Garage",
+      "address": "13589 south union road",
+      "city": "Danville",
+      "state": "IL",
+      "zipCode": "61834"
+    },
+    {
+      "buildingCode": "0547",
+      "buildingName": "510 Devonshire Dr",
+      "address": "510 devonshire drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0549",
+      "buildingName": "Getz Hall – Phillips Tract",
+      "address": "1735 north cottonwood road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0551",
+      "buildingName": "Richmond Studio",
+      "address": "1110 west main street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0553",
+      "buildingName": "Monticello Road Field Station",
+      "address": "719 east county road 1000 north",
+      "city": "Monticello",
+      "state": "IL",
+      "zipCode": "61856"
+    },
+    {
+      "buildingCode": "0554",
+      "buildingName": "WILL TV Tower",
+      "address": "e 1700 north road 400 east",
+      "city": "Monticello",
+      "state": "IL",
+      "zipCode": "61856"
+    },
+    {
+      "buildingCode": "0556",
+      "buildingName": "Fire Substation",
+      "address": "1105 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0557",
+      "buildingName": "Parking Structure, Lot F29",
+      "address": "1001 dorner drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0558",
+      "buildingName": "Newton House",
+      "address": "1198 cr 1350 east",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0559",
+      "buildingName": "111 E Green St",
+      "address": "111 east green street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0560",
+      "buildingName": "Eichelberger Field and Press Box",
+      "address": "1201 west florida avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0562",
+      "buildingName": "Moss House",
+      "address": "4110 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0563",
+      "buildingName": "Thomas M. Siebel Center for Computer Science",
+      "address": "201 north goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0564",
+      "buildingName": "National Center for Supercomputing Applications",
+      "address": "1205 west clark street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0565",
+      "buildingName": "Carle Forum",
+      "address": "506 west park street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0568",
+      "buildingName": "Native American House",
+      "address": "1206 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0572",
+      "buildingName": "100 Trade Center Dr",
+      "address": "100 trade center drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0651",
+      "buildingName": "Human Factors Division",
+      "address": "3 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0652",
+      "buildingName": "Control Tower",
+      "address": "1 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0655",
+      "buildingName": "Reciprocating Engine Test Cell",
+      "address": "4 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0656",
+      "buildingName": "Snow Removal Equipment Building",
+      "address": "11 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0657",
+      "buildingName": "Airport Operations Garage",
+      "address": "11 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0658",
+      "buildingName": "Hangar #4",
+      "address": "22 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0661",
+      "buildingName": "Hangar #1",
+      "address": "1 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0662",
+      "buildingName": "Airport – Miscellaneous Buildings",
+      "address": "1 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0663",
+      "buildingName": "Hangar #2",
+      "address": "7 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0665",
+      "buildingName": "Quonset #1",
+      "address": "10 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0666",
+      "buildingName": "Quonset #2",
+      "address": "2 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0667",
+      "buildingName": "Quonset #3",
+      "address": "1 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0668",
+      "buildingName": "Quonset #4",
+      "address": "3 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0669",
+      "buildingName": "Quonset #5",
+      "address": "3 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0671",
+      "buildingName": "Quonset #7",
+      "address": "2 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0672",
+      "buildingName": "Quonset #8",
+      "address": "2 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0674",
+      "buildingName": "Flightstar Administration Building",
+      "address": "7 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0675",
+      "buildingName": "Commercial Airport Terminal Building",
+      "address": "11 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0676",
+      "buildingName": "Inst of Aviation Admin Building",
+      "address": "1 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0677",
+      "buildingName": "Airport Rescue and Firefighting",
+      "address": "5 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0678",
+      "buildingName": "10 Unit T-Hangar (central)",
+      "address": "20 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0679",
+      "buildingName": "5 Unit T-Hangar (south)",
+      "address": "20 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0680",
+      "buildingName": "2 Unit T-Hangar",
+      "address": "20 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0681",
+      "buildingName": "Hangar #3",
+      "address": "7 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0682",
+      "buildingName": "Hangar #5",
+      "address": "7 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0683",
+      "buildingName": "Sand & Snow Equipment Storage Building",
+      "address": "11 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0685",
+      "buildingName": "Hangar #7",
+      "address": "24 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0686",
+      "buildingName": "Machine Shop",
+      "address": "11 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0696",
+      "buildingName": "Airport Main Vault",
+      "address": "16 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0698",
+      "buildingName": "Parking Booths",
+      "address": "13 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "0739",
+      "buildingName": "Orchard Place Apartments (1801, 1802)",
+      "address": "1801 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0740",
+      "buildingName": "Orchard Place Apartments (1803, 1804)",
+      "address": "1803 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0741",
+      "buildingName": "Orchard Place Apartments (1805, 1806)",
+      "address": "1805 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0742",
+      "buildingName": "Orchard Place Apartments (1807, 1808)",
+      "address": "1807 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0743",
+      "buildingName": "Orchard Place Apartments (1809, 1810, 1811, 1812)",
+      "address": "1809 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0744",
+      "buildingName": "Orchard Place Apartments (1813, 1814)",
+      "address": "1813 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0745",
+      "buildingName": "Orchard Place Apartments (1815,1816, 1817, 1818)",
+      "address": "1815 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0747",
+      "buildingName": "Orchard Place Apartments (1821, 1822, 1823, 1824)",
+      "address": "1821 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0748",
+      "buildingName": "Orchard Place Apartments (1825, 1826)",
+      "address": "1825 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0749",
+      "buildingName": "Orchard Place Apartments (1827, 1828)",
+      "address": "1827 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0750",
+      "buildingName": "Orchard Place Apartments (1829, 1830)",
+      "address": "1829 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0751",
+      "buildingName": "Orchard Place Apartments (1831, 1832)",
+      "address": "1831 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0752",
+      "buildingName": "Orchard Place Apartments (1833, 1834)",
+      "address": "1833 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0753",
+      "buildingName": "Orchard Place Apartments (1835, 1836)",
+      "address": "1835 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0754",
+      "buildingName": "Orchard Place Apartments (1837, 1838)",
+      "address": "1837 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0755",
+      "buildingName": "Family Housing Office (1841)",
+      "address": "1841 orchard place",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0756",
+      "buildingName": "Orchard Downs Apartments (1902, 1904, 1906)",
+      "address": "1902 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0757",
+      "buildingName": "Orchard Downs Apartments (1910, 1912, 1914, 1916)",
+      "address": "1910 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0758",
+      "buildingName": "Orchard Downs Apartments (1920, 1922, 1924)",
+      "address": "1920 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0759",
+      "buildingName": "Orchard Downs Apartments (1930, 1932, 1934)",
+      "address": "1930 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0760",
+      "buildingName": "Orchard Downs Apartments (1940, 1942, 1944)",
+      "address": "1940 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0761",
+      "buildingName": "Orchard Downs Apartments (1950, 1952, 1954, 1956)",
+      "address": "1950 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0762",
+      "buildingName": "Orchard Downs Apartments (1960, 1962)",
+      "address": "1960 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0763",
+      "buildingName": "Orchard Downs Apartments (1961, 1963, 1965)",
+      "address": "1961 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0764",
+      "buildingName": "Orchard Downs Apartments (1970, 1972, 1974, 1976)",
+      "address": "1970 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0765",
+      "buildingName": "Orchard Downs Apartments (1971, 1973, 1975, 1977)",
+      "address": "1971 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0766",
+      "buildingName": "Orchard Downs Apartments (2001, 2003, 2005)",
+      "address": "2001 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0767",
+      "buildingName": "Orchard Downs Apartments (2002, 2004, 2006)",
+      "address": "2002 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0768",
+      "buildingName": "Orchard Downs Apartments (2008, 2009)",
+      "address": "2008 hazelwood court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0769",
+      "buildingName": "Orchard Downs Apartments (2010, 2012, 2014, 2016)",
+      "address": "2010 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0770",
+      "buildingName": "Orchard Downs Apartments (2011, 2013, 2015, 2017)",
+      "address": "2011 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0771",
+      "buildingName": "Orchard Downs Apartments (2020, 2022, 2024)",
+      "address": "2020 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0772",
+      "buildingName": "Orchard Downs Apartments (2021, 2023, 2025)",
+      "address": "2021 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0773",
+      "buildingName": "Orchard Downs Apartments (2027, 2028, 2029)",
+      "address": "2027 hazelwood court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0774",
+      "buildingName": "Orchard Downs Apartments (2030, 2032, 2034)",
+      "address": "2030 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0775",
+      "buildingName": "Orchard Downs Apartments (2031, 2033, 2035, 2037)",
+      "address": "2031 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0776",
+      "buildingName": "Orchard Downs Apartments (2038, 2039)",
+      "address": "2038 hazelwood court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0777",
+      "buildingName": "Orchard Downs Apartments (2040, 2042, 2044)",
+      "address": "2040 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0778",
+      "buildingName": "Orchard Downs Apartments (2047, 2048, 2049)",
+      "address": "2047 hazelwood court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0779",
+      "buildingName": "Orchard Downs Apartments (2051, 2053)",
+      "address": "2051 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0780",
+      "buildingName": "Orchard Downs Apartments (2055, 2057, 2059)",
+      "address": "2055 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0781",
+      "buildingName": "Orchard Downs Apartments (2060, 2062, 2064)",
+      "address": "2060 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0782",
+      "buildingName": "Orchard Downs Apartments 2061,2063, 2065)",
+      "address": "2061 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0783",
+      "buildingName": "Orchard Downs Apartments (2067, 2068, 2069)",
+      "address": "2067 hazelwood court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0784",
+      "buildingName": "Orchard Downs Apartments (2070, 2072, 2074)",
+      "address": "2070 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0785",
+      "buildingName": "Orchard Downs Apartments (2071, 2073, 2075)",
+      "address": "2071 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0786",
+      "buildingName": "Orchard Downs Apartments (2077, 2078, 2079)",
+      "address": "2077 hazelwood court",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0787",
+      "buildingName": "Orchard Downs Apartments (2080, 2082, 2084)",
+      "address": "2080 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0788",
+      "buildingName": "Orchard Downs Apartments (2081, 2083, 2085, 2087)",
+      "address": "2081 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0789",
+      "buildingName": "Orchard South Apartments (2101)",
+      "address": "2101 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0790",
+      "buildingName": "Orchard South Apartments (2102)",
+      "address": "2102 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0791",
+      "buildingName": "Orchard South Apartments (2103)",
+      "address": "2103 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0792",
+      "buildingName": "Orchard South Apartments (2104)",
+      "address": "2104 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0793",
+      "buildingName": "Orchard South Apartments (2105)",
+      "address": "2105 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0794",
+      "buildingName": "Orchard South Apartments (2106)",
+      "address": "2106 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0795",
+      "buildingName": "Orchard South Apartments (2107)",
+      "address": "2107 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0796",
+      "buildingName": "Orchard South Apartments (2108)",
+      "address": "2108 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0797",
+      "buildingName": "Orchard South Apartments (2109)",
+      "address": "2109 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0798",
+      "buildingName": "Orchard South Apartments (2110)",
+      "address": "2110 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0799",
+      "buildingName": "Orchard South Apartments (2111)",
+      "address": "2111 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0806",
+      "buildingName": "Swine Res Ctr – Farrowing Building",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0807",
+      "buildingName": "Swine Res Ctr – Sow Feeding Building",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0817",
+      "buildingName": "Swine Res Ctr – Storage",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0824",
+      "buildingName": "Agronomy South Farms Laboratory",
+      "address": "1414 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0825",
+      "buildingName": "Swine Res Ctr – Nursery Building",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0828",
+      "buildingName": "Animal Science Shop and Storage – Horse Farm",
+      "address": "407 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0829",
+      "buildingName": "Pole Frame Horse Barn",
+      "address": "501 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0831",
+      "buildingName": "Animal Science K40 Facility",
+      "address": "411 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0833",
+      "buildingName": "Animal Science Farm Equipment Storage Unit",
+      "address": "601 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0834",
+      "buildingName": "Animal Science Isolation Unit",
+      "address": "501 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0836",
+      "buildingName": "Equine Research Barn",
+      "address": "517 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0837",
+      "buildingName": "Pesticide Storage",
+      "address": "1206 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0838",
+      "buildingName": "Machinery Storage Building – Agronomy Farm",
+      "address": "1412 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0839",
+      "buildingName": "Machinery and Equipment Storage Shed – Agronomy Farm",
+      "address": "1320 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0842",
+      "buildingName": "Agronomy Seed House",
+      "address": "1418 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0844",
+      "buildingName": "Agronomy Drying Shed",
+      "address": "1410 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0845",
+      "buildingName": "Sheet Metal Barn",
+      "address": "1406 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0846",
+      "buildingName": "Sheet Metal Barn – USDA",
+      "address": "1408 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0848",
+      "buildingName": "Sheet Metal Barn – Weed Laboratory – USDA",
+      "address": "1404 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0849",
+      "buildingName": "Sheet Metal Barn – Agronomy",
+      "address": "1306 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0851",
+      "buildingName": "Rain Drop Tower Building – Agronomy",
+      "address": "1330 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0852",
+      "buildingName": "Grain Drying Building – Agronomy",
+      "address": "1324 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0853",
+      "buildingName": "Growth Chamber Building – USDA",
+      "address": "1312 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0854",
+      "buildingName": "Machine Storage Building",
+      "address": "1314 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0855",
+      "buildingName": "Dairy Experimental Round Barns",
+      "address": "1201 saint mary's road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0856",
+      "buildingName": "Dairy Experimental Round Barns",
+      "address": "1201 saint mary's road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0857",
+      "buildingName": "Dairy Experimental Round Barns",
+      "address": "1201 saint mary's road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0858",
+      "buildingName": "1101 St Marys Rd",
+      "address": "1101 saint mary's road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0860",
+      "buildingName": "Small Calf Barn – Round Barns",
+      "address": "1911 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0861",
+      "buildingName": "Brick Garage Laboratory – Round Barns",
+      "address": "1911 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0866",
+      "buildingName": "Swine Finishing – Building A",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0867",
+      "buildingName": "Swine Finishing – Building B",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0875",
+      "buildingName": "Animal Husbandry Poultry Barn",
+      "address": "2711 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0879",
+      "buildingName": "Food Storage Shed – Horticulture Field Laboratory",
+      "address": "1711 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "0881",
+      "buildingName": "Grounds Storage Barn",
+      "address": "2306 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0884",
+      "buildingName": "Pollinatarium",
+      "address": "606 west windsor road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0885",
+      "buildingName": "Horticulture Field Research Laboratory",
+      "address": "2302 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0886",
+      "buildingName": "Woody Ornamentals Greenhouse",
+      "address": "2302 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0888",
+      "buildingName": "Animal Research Barn – Physical Research Laboratory",
+      "address": "301 hazelwood drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0889",
+      "buildingName": "Animal Genetics Pole Barn Storage",
+      "address": "301 hazelwood drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0890",
+      "buildingName": "Storage – 3 Buildings",
+      "address": "2805 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0891",
+      "buildingName": "Physiology Research Laboratory – Garage West",
+      "address": "301 hazelwood drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0899",
+      "buildingName": "Moorman Research Farm – Physiology Barn 2",
+      "address": "301 hazelwood drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0900",
+      "buildingName": "Moorman Research Farm – Physiology Barn 1",
+      "address": "301 hazelwood drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0912",
+      "buildingName": "Imported Swine Research Laboratory",
+      "address": "201 hazelwood drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "0919",
+      "buildingName": "Machine Shed – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0920",
+      "buildingName": "New Calf Barn – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0921",
+      "buildingName": "New Bull Barn – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0924",
+      "buildingName": "Dairy Herdsman's Cottage – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0925",
+      "buildingName": "South Barn and Calf House – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0926",
+      "buildingName": "North Barn and Milk House – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0927",
+      "buildingName": "Loafing Barn – Dairy Cat Mech Ctr – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0928",
+      "buildingName": "Shop and Storage Building – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0929",
+      "buildingName": "T' Loafing Barn – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0934",
+      "buildingName": "Milking Parlor – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0935",
+      "buildingName": "Food Science Dry Processing Laboratory",
+      "address": "2109 south goodwin avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0937",
+      "buildingName": "Feed Mixing Barn – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0938",
+      "buildingName": "Milking Parlor – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0939",
+      "buildingName": "Dairy Free Stall Barn – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0940",
+      "buildingName": "Garage",
+      "address": "107 east windsor road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0949",
+      "buildingName": "Implement Shed – Agricultural Engineering – S Race St",
+      "address": "3603 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0950",
+      "buildingName": "Agricultural Engineering Storage – S Race St",
+      "address": "3603 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0951",
+      "buildingName": "Implement Shed – Forest Sciences – S Race St",
+      "address": "2711 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0953",
+      "buildingName": "Downes Annex",
+      "address": "2711 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0955",
+      "buildingName": "Southwest Barn – Vet Med – S Race St",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0956",
+      "buildingName": "Northwest Barn – Vet Med – S Race St",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0957",
+      "buildingName": "Swine Res Ctr – Supervisor's Residence",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "0963",
+      "buildingName": "Vet Res Farm – Clinical Res Barn",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0969",
+      "buildingName": "Vet Res Farm – Pathological Inc",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0970",
+      "buildingName": "Agriculture Engineering Research #1",
+      "address": "3701 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0971",
+      "buildingName": "Structures Physiology Laboratory",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0972",
+      "buildingName": "Free Stall Barn – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0973",
+      "buildingName": "Vet Res Farm – Horse Shelter",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0974",
+      "buildingName": "Agricultural and Biological Engineering Storage Building",
+      "address": "3603 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0980",
+      "buildingName": "Agriculture Engineering Research #2",
+      "address": "3701 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0981",
+      "buildingName": "Vegetable Research Farm – Garage",
+      "address": "3701 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0983",
+      "buildingName": "ABE-Environmental Research Lab",
+      "address": "3603 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0984",
+      "buildingName": "Machinery Storage Building #2",
+      "address": "3603 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0985",
+      "buildingName": "Machinery Storage Building – Grein Farm",
+      "address": "1108 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0987",
+      "buildingName": "Grein Farm – Storage Shed 1",
+      "address": "1114 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0988",
+      "buildingName": "Grein Farm – Storage Shed 2",
+      "address": "1116 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0990",
+      "buildingName": "ABE-Farm Research Lab",
+      "address": "3603 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0991",
+      "buildingName": "Soybean Research – Agronomy Farm",
+      "address": "1308 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0996",
+      "buildingName": "Dry Cow Free – Stall Barn",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0997",
+      "buildingName": "Heifer Shed – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "0999",
+      "buildingName": "Free Stall Pole Building – Lincoln Ave Dairy",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1000",
+      "buildingName": "Supervisor's Residence – Beef",
+      "address": "401 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1001",
+      "buildingName": "Cruse Farm Pump Station",
+      "address": "2923 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1003",
+      "buildingName": "Acid Rain Field Building",
+      "address": "706 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1004",
+      "buildingName": "Cruse Farm Storage Building",
+      "address": "2923 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1006",
+      "buildingName": "Vet Res Farm – Swine Finishing Building",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1007",
+      "buildingName": "Vet Res Farm – Swine Farrowing & Nursery",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1008",
+      "buildingName": "Vet Res Farm – Dog Small Ruminant Building",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1009",
+      "buildingName": "Vet Res Farm – Swine Gestation Unit",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1010",
+      "buildingName": "Vet Res Farm – Service Building",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1011",
+      "buildingName": "Vet Res Farm – Cattle Confinement Facility",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1013",
+      "buildingName": "Beef Cow Facility",
+      "address": "2612 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1014",
+      "buildingName": "Beef Cow Facility – Cattle Working Shelter",
+      "address": "2612 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1015",
+      "buildingName": "Beef Cow Facility – Hay Storage",
+      "address": "2612 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1016",
+      "buildingName": "Vegetable Crops Shop & Storage Building",
+      "address": "2921 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1017",
+      "buildingName": "Agricultural/FF&E Warehouse Storage A",
+      "address": "1919 south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1018",
+      "buildingName": "Engineering Warehouse Storage B",
+      "address": "1919b south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1019",
+      "buildingName": "Engineering Warehouse Storage C",
+      "address": "1921 south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1020",
+      "buildingName": "Electrical Engineering Storage Building",
+      "address": "2121 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1021",
+      "buildingName": "Implement Storage Building – Lincoln Ave Dairy",
+      "address": "2305 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1023",
+      "buildingName": "Feed Loading – Lincoln Ave Dairy",
+      "address": "2201 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1024",
+      "buildingName": "Large Heifer Rearing – Lincoln Ave Dairy",
+      "address": "2201 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1025",
+      "buildingName": "Small Heifer Rearing – Lincoln Ave Dairy",
+      "address": "2201 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1026",
+      "buildingName": "Water Survey – Warehouse #10",
+      "address": "2107 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1027",
+      "buildingName": "Aeronomy Field Station",
+      "address": "4810 north high cross road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1028",
+      "buildingName": "Aeronomy Laser – Radar Facility",
+      "address": "4810 north high cross road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1030",
+      "buildingName": "Swine Res Ctr – Headquarters Building",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1031",
+      "buildingName": "Swine Res Ctr – Feed Center",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1032",
+      "buildingName": "ABE-HTL Research Lab",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1033",
+      "buildingName": "Swine Res Ctr – Nursery",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1034",
+      "buildingName": "Swine Res Ctr – Growing Building #1",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1035",
+      "buildingName": "Swine Res Ctr – Growing Building #2",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1036",
+      "buildingName": "Swine Res Ctr – Finishing Building #1",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1037",
+      "buildingName": "Metal Storage Building",
+      "address": "1923 south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1039",
+      "buildingName": "ISGS Core Storage Building #1",
+      "address": "1901 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1040",
+      "buildingName": "O&M Storage Building",
+      "address": "1208 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1041",
+      "buildingName": "Agriculture Storage Building",
+      "address": "1212 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1044",
+      "buildingName": "Commodities Storage Building",
+      "address": "1102 gerty drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1048",
+      "buildingName": "Pest Management Laboratory",
+      "address": "1819 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1049",
+      "buildingName": "Orchard South Apartments (2112)",
+      "address": "2112 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1050",
+      "buildingName": "Orchard South Apartments (2113)",
+      "address": "2113 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1051",
+      "buildingName": "Orchard South Apartments (2114)",
+      "address": "2114 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1052",
+      "buildingName": "Orchard South Apartments (2116)",
+      "address": "2116 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1053",
+      "buildingName": "Orchard South Apartments (2118)",
+      "address": "2118 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1054",
+      "buildingName": "Orchard South Apartments (2120)",
+      "address": "2120 south orchard street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1055",
+      "buildingName": "Orchard South Apartments (2201)",
+      "address": "2201 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1056",
+      "buildingName": "Orchard South Apartments (2202)",
+      "address": "2202 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1057",
+      "buildingName": "Orchard South Apartments (2203)",
+      "address": "2203 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1058",
+      "buildingName": "Orchard South Apartments (2205)",
+      "address": "2205 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1060",
+      "buildingName": "Horse Receiving Barn",
+      "address": "501 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1061",
+      "buildingName": "Swine Res Ctr – Shop",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1064",
+      "buildingName": "Swine Isolation Unit",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1065",
+      "buildingName": "Swine Res Ctr – Mobile Home",
+      "address": "811 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1066",
+      "buildingName": "Machine Shed – Animal Science",
+      "address": "811 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1067",
+      "buildingName": "Machine Storage Crib",
+      "address": "811 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1068",
+      "buildingName": "Police Training Institute – Pavilion",
+      "address": "609 1/2 east curtis road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1069",
+      "buildingName": "Police Training Institute – Tactical Range 1",
+      "address": "609 1/2 east curtis road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1070",
+      "buildingName": "Police Training Institute – Tactical Range 2",
+      "address": "609 1/2 east curtis road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1071",
+      "buildingName": "Early Child Development Laboratory",
+      "address": "1005 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1073",
+      "buildingName": "Forbes Natural History Building",
+      "address": "1816 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1075",
+      "buildingName": "Atkins Building",
+      "address": "1800 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1076",
+      "buildingName": "Swine Nursery Trailer – East",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1077",
+      "buildingName": "Swine Nursery Trailer – West",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1079",
+      "buildingName": "Illini Union Warehouse #2",
+      "address": "509 hazelwood drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1080",
+      "buildingName": "Carl R. Woese Institute for Genomic Biology",
+      "address": "1206 gregory drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1083",
+      "buildingName": "Technology Plaza",
+      "address": "616 east green street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1088",
+      "buildingName": "Dairy Free Stall Barn – Light Controlled",
+      "address": "2301 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1089",
+      "buildingName": "CERL – Pole Barn 11",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1090",
+      "buildingName": "Hay Storage Building",
+      "address": "3305 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1092",
+      "buildingName": "Abbott Scrubber Building",
+      "address": "21 east armory avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1093",
+      "buildingName": "Aerodynamics Research Laboratory",
+      "address": "1013 springfield avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1094",
+      "buildingName": "North Campus Parking Deck",
+      "address": "1206 clark street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1095",
+      "buildingName": "Enterprise Works @ Illinois",
+      "address": "60 hazelwood drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1096",
+      "buildingName": "Oak Street Library Facility",
+      "address": "809 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1098",
+      "buildingName": "ISGS Pole Barn West",
+      "address": "2909 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1099",
+      "buildingName": "Wildlife Research Laboratory",
+      "address": "1110 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1100",
+      "buildingName": "Aviary AC Building",
+      "address": "1112 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1101",
+      "buildingName": "Ponds Site Laboratory",
+      "address": "3505 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1102",
+      "buildingName": "ISGS Pole Barn East",
+      "address": "2911 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1104",
+      "buildingName": "Water Survey Research Center #1",
+      "address": "2204 kirk drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1105",
+      "buildingName": "Water Survey Research Center – Shed",
+      "address": "20 bailey drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1106",
+      "buildingName": "Water Survey Research Center #3",
+      "address": "2208 kirk drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1107",
+      "buildingName": "Water Survey Research Center #4",
+      "address": "15 bailey drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1108",
+      "buildingName": "Water Survey Research Center #5",
+      "address": "35 bailey drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1109",
+      "buildingName": "Water Survey Research Center #6",
+      "address": "65 bailey drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1110",
+      "buildingName": "Water Survey Research Center #7",
+      "address": "40 bailey drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1111",
+      "buildingName": "Water Survey Research Center #8",
+      "address": "60 bailey drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1112",
+      "buildingName": "Water Survey Research Center #9",
+      "address": "2210 kirk drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1114",
+      "buildingName": "1108 Stoughton St",
+      "address": "1108 stoughton street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1116",
+      "buildingName": "CERL – Main Building 2",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1117",
+      "buildingName": "CERL – Main Building 3",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1118",
+      "buildingName": "CERL – Tess Building",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1119",
+      "buildingName": "CERL – Solar House 6",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1120",
+      "buildingName": "CERL – Chemical Storage Building 7",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1121",
+      "buildingName": "CERL – Hazwaste Storage",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1122",
+      "buildingName": "CERL – Utilities Building 9",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1124",
+      "buildingName": "CERL – Foam Panel Building 12",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1125",
+      "buildingName": "CERL – DPW Pole Barn",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1127",
+      "buildingName": "CERL – EMP-S",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1129",
+      "buildingName": "CERL – EMP-N",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1130",
+      "buildingName": "CERL – Schnabel Lab",
+      "address": "2902 newmark drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1133",
+      "buildingName": "Doris Kelley Christopher Hall",
+      "address": "904 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1137",
+      "buildingName": "Fifth and Daniel Streets Parking Structure, C10",
+      "address": "812 south fifth street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1139",
+      "buildingName": "Water Survey – Shop and Equipment Building #11",
+      "address": "2208 griffith drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1145",
+      "buildingName": "Asian American Cultural Center",
+      "address": "1210 west nevada street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1146",
+      "buildingName": "S. Farms – Beef Cattle & Sheep Field Lab",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1147",
+      "buildingName": "S. Farms – Equipment Shed",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1148",
+      "buildingName": "S. Farms – Sheep Barn",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1149",
+      "buildingName": "S. Farms – Manure Shed",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1150",
+      "buildingName": "S. Farms – Feed Mixing",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1151",
+      "buildingName": "S. Farms – Bunkers",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1152",
+      "buildingName": "S. Farms – Cow Pens #1",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1153",
+      "buildingName": "S. Farms – Cow Pens #2",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1154",
+      "buildingName": "S. Farms – Calving – Isolation – Work Area",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1155",
+      "buildingName": "S. Farms – Heifer/Bull Barn #1",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1156",
+      "buildingName": "S. Farms – Heifer/Bull Barn #2",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1157",
+      "buildingName": "S. Farms – Commodity Shed",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1158",
+      "buildingName": "S. Farms – Hay Storage",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1159",
+      "buildingName": "S. Farms – Group Feeder Barn #1",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1160",
+      "buildingName": "S. Farms – Group Feeder Barn #2",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1161",
+      "buildingName": "S. Farms – Isolation – Work Area",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1162",
+      "buildingName": "S. Farms – Individual Feeder Barn #1",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1163",
+      "buildingName": "S. Farms – Individual Feeder Barn #2",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1164",
+      "buildingName": "S. Farms – Metabolism Building",
+      "address": "4900 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1165",
+      "buildingName": "Bee Research Facility",
+      "address": "3515 south lincoln avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1171",
+      "buildingName": "FSI – Hazmat Storage Building",
+      "address": "11 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1172",
+      "buildingName": "FSI – Storage Building",
+      "address": "11 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1173",
+      "buildingName": "FSI – Fire Apparatus Storage Building",
+      "address": "11 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1174",
+      "buildingName": "FSI – Two Story Burn Building",
+      "address": "11 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1175",
+      "buildingName": "FSI – Residential Burn Building",
+      "address": "11 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1177",
+      "buildingName": "FSI – Filter House",
+      "address": "11 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1178",
+      "buildingName": "FSI – South Storage Building",
+      "address": "11 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1187",
+      "buildingName": "Demirjian Indoor Golf Facility",
+      "address": "1415 saint mary's road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1188",
+      "buildingName": "House",
+      "address": "305 east curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1189",
+      "buildingName": "Pole Shed",
+      "address": "305 east curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1191",
+      "buildingName": "Flightstar Hangar #8",
+      "address": "7 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "1196",
+      "buildingName": "Lincoln Square Mall",
+      "address": "300 south broadway avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1197",
+      "buildingName": "201 Industrial Cir",
+      "address": "201 industrial circle",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1199",
+      "buildingName": "YMCA",
+      "address": "1001 south wright street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1206",
+      "buildingName": "Business Instructional Facility",
+      "address": "515 gregory drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1209",
+      "buildingName": "Engineering Student Project Laboratory",
+      "address": "1015 springfield avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1214",
+      "buildingName": "Conference Center",
+      "address": "111 saint mary's road",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1215",
+      "buildingName": "I-Hotel",
+      "address": "1900 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1216",
+      "buildingName": "Poultry Research Facility – Cage House 3",
+      "address": "4513 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1217",
+      "buildingName": "Ashton Woods Apartments Office",
+      "address": "2221 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1218",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2301 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1219",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2303 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1220",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2305 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1221",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2307 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1222",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2309 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1223",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2215 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1224",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2217 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1225",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2219 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1226",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2311 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1227",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2313 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1228",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2315 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1229",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2317 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1230",
+      "buildingName": "Ashton Woods Apartments",
+      "address": "2319 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1232",
+      "buildingName": "Shelford Vivarium Greenhouse",
+      "address": "608 east healey street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1233",
+      "buildingName": "Integrated Bioprocessing Research Laboratory",
+      "address": "1300 west pennsylvania avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1234",
+      "buildingName": "Poultry Research Facility – Specialized Research 2",
+      "address": "4513 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1235",
+      "buildingName": "Poultry Research Facility – Chick Lab Hatchery/Feed Mixing 1",
+      "address": "4513 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1236",
+      "buildingName": "Poultry Research Facility – Grower House 4",
+      "address": "4513 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1237",
+      "buildingName": "Poultry Research Facility – Breeder House 5",
+      "address": "4513 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1238",
+      "buildingName": "Poultry Research Facility – Rooster House",
+      "address": "4513 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1240",
+      "buildingName": "Airport Hangar #9",
+      "address": "7 airport road",
+      "city": "Savoy",
+      "state": "IL",
+      "zipCode": "61874"
+    },
+    {
+      "buildingCode": "1244",
+      "buildingName": "National Petascale Computing Facility",
+      "address": "1725 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1247",
+      "buildingName": "Student Dining and Residential Programs Building",
+      "address": "301 gregory drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1248",
+      "buildingName": "Timothy J. Nugent Hall",
+      "address": "207 east gregory drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1249",
+      "buildingName": "Wassaja Hall",
+      "address": "1202 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1252",
+      "buildingName": "Bousfield Hall",
+      "address": "1214 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1258",
+      "buildingName": "Fruit Research Farm – Administration Building",
+      "address": "2711 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1259",
+      "buildingName": "Fruit Research Farm – Equipment Storage",
+      "address": "2711 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1260",
+      "buildingName": "Fruit Research Farm – Chemical Storage",
+      "address": "2711 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1261",
+      "buildingName": "FSI – Learning Resource Research Center",
+      "address": "25 gerty drive",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1263",
+      "buildingName": "McFarland Carillon",
+      "address": "1401 west loredo taft drive",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1268",
+      "buildingName": "Robert A. Evers Laboratory",
+      "address": "1909 south oak street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1269",
+      "buildingName": "Eichelberger Field – Concessions",
+      "address": "1201 west florida avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1270",
+      "buildingName": "Eichelberger Field – Locker Room",
+      "address": "1201 west florida avenue",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61801"
+    },
+    {
+      "buildingCode": "1274",
+      "buildingName": "Swine Isolation – LL Building",
+      "address": "811 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1275",
+      "buildingName": "Swine Isolation – Quad Plex",
+      "address": "811 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1276",
+      "buildingName": "Swine Isolation – Old Corn Crib",
+      "address": "811 west curtis road",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1277",
+      "buildingName": "LL Nursery",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1278",
+      "buildingName": "Swine Res Ctr – N14 Storage Shed",
+      "address": "3402 south first street",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61822"
+    },
+    {
+      "buildingCode": "1283",
+      "buildingName": "Illinois Field – Concessions",
+      "address": "601 east kirby avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1284",
+      "buildingName": "Illinois Field – Locker Room",
+      "address": "601 east kirby avenue",
+      "city": "Champaign",
+      "state": "IL",
+      "zipCode": "61820"
+    },
+    {
+      "buildingCode": "1287",
+      "buildingName": "Race St. Farmstead – Farmhouse",
+      "address": "4514 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1291",
+      "buildingName": "Energy Farm BioMass Drying Open Shed",
+      "address": "4110 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1294",
+      "buildingName": "Gable Home",
+      "address": "4202 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1295",
+      "buildingName": "Fruit Research Farm – Pesticide Storage Unit 1",
+      "address": "2711 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    },
+    {
+      "buildingCode": "1296",
+      "buildingName": "Fruit Research Farm – Pesticide Storage Unit 2",
+      "address": "2711 south race street",
+      "city": "Urbana",
+      "state": "IL",
+      "zipCode": "61802"
+    }
+  ]
+}

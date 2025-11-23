@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "buildCommand": "npm run build",
+    "outputDirectory": "out",
+    "functions": {
+        "api/**/*.js": {
+            "runtime": "@vercel/node@latest"
+        }
+    },
+    "env": {
+        "MONGODB_URI": "@mongodb_uri"
+    }
+}

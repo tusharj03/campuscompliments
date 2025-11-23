@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Icons</title>
+    <style>
+        canvas { margin: 10px; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <h1>Right-click each icon to save</h1>
+    
+    <canvas id="icon192" width="192" height="192"></canvas>
+    <canvas id="icon512" width="512" height="512"></canvas>
+    <canvas id="icon144" width="144" height="144"></canvas>
+    <canvas id="icon72" width="72" height="72"></canvas>
+    <canvas id="icon96" width="96" height="96"></canvas>
+    <canvas id="icon128" width="128" height="128"></canvas>
+    <canvas id="icon152" width="152" height="152"></canvas>
+    <canvas id="icon384" width="384" height="384"></canvas>
+
+    <script>
+        function createIcon(canvasId, size) {
+            const canvas = document.getElementById(canvasId);
+            const ctx = canvas.getContext('2d');
+            
+            // Background
+            ctx.fillStyle = '#2563eb';
+            ctx.fillRect(0, 0, size, size);
+            
+            // Heart icon
+            ctx.fillStyle = '#ffffff';
+            ctx.font = `bold ${size * 0.5}px Arial`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('💕', size/2, size/2);
+        }
+
+        // Create all icons
+        createIcon('icon72', 72);
+        createIcon('icon96', 96);
+        createIcon('icon128', 128);
+        createIcon('icon144', 144);
+        createIcon('icon152', 152);
+        createIcon('icon192', 192);
+        createIcon('icon384', 384);
+        createIcon('icon512', 512);
+    </script>
+</body>
+</html>
