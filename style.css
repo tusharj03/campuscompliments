@@ -169,7 +169,7 @@ body {
     width: 100%;
 }
 
-/* ===== Sidebar ===== */
+/* ===== Sidebar - FIXED SCROLLING ===== */
 .sidebar {
     width: 380px;
     background: var(--bg-overlay);
@@ -182,11 +182,13 @@ body {
     overflow: hidden;
 }
 
+/* Make entire sidebar scrollable */
 .sidebar-content {
     display: flex;
     flex-direction: column;
     height: 100%;
-    overflow: hidden;
+    overflow-y: auto; /* Enable scrolling on entire sidebar */
+    overflow-x: hidden;
 }
 
 .sidebar-header {
@@ -292,7 +294,7 @@ body {
     overflow: hidden;
 }
 
-/* ===== Tab Sections ===== */
+/* ===== Tab Sections - FIXED ===== */
 .feed-section,
 .map-section,
 .feedback-section {
@@ -319,7 +321,18 @@ body {
     letter-spacing: 0.05em;
 }
 
-/* ===== Feed ===== */
+/* ===== Feed Section ===== */
+.feed-section {
+    display: none;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.feed-section.active {
+    display: flex;
+}
+
 .feed-header {
     display: flex;
     justify-content: space-between;
@@ -349,6 +362,7 @@ body {
 .feed-container {
     flex: 1;
     overflow-y: auto;
+    min-height: 0;
 }
 
 .compliments-feed {
@@ -565,7 +579,21 @@ body {
     color: var(--text-secondary);
 }
 
-/* ===== Map Controls ===== */
+/* ===== Map Section ===== */
+.map-section {
+    display: none;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.map-section.active {
+    display: flex;
+}
+
+.map-section h3 {
+    margin-bottom: 0;
+}
+
 .map-controls {
     display: flex;
     gap: var(--space-3);
@@ -604,7 +632,6 @@ body {
     border-color: var(--primary-dark);
 }
 
-/* Fixed drop pin button highlight */
 .control-btn.primary:not(.active) {
     background: var(--bg-elevated);
     color: var(--text-primary);
@@ -646,7 +673,7 @@ body {
     border-radius: var(--radius-lg);
 }
 
-/* Map Container Improvements */
+/* Map Container Improvements - ONLY apply to map container */
 .map-container::before {
     content: '';
     position: absolute;
@@ -716,7 +743,7 @@ body {
     display: none !important;
 }
 
-/* ===== Floating Stats ===== */
+/* ===== Floating Stats - FIXED MOBILE POSITIONING ===== */
 .floating-stats {
     position: absolute;
     top: var(--space-6);
@@ -1315,16 +1342,6 @@ body {
     flex-shrink: 0;
 }
 
-.feedback-form {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-5);
-    flex: 1;
-    overflow-y: auto;
-    padding-bottom: var(--space-4);
-    min-height: 0; /* Important for flexbox scrolling */
-}
-
 .feedback-header h3 {
     font-size: var(--font-size-xl);
     font-weight: 600;
@@ -1344,6 +1361,7 @@ body {
     flex: 1;
     overflow-y: auto;
     padding-bottom: var(--space-4);
+    min-height: 0;
 }
 
 .feedback-form .form-group {
@@ -1373,7 +1391,7 @@ body {
 
     .layout {
         flex-direction: column;
-        margin-top: 60px; /* Account for fixed header */
+        margin-top: 60px;
         height: calc(100vh - 60px);
     }
     
@@ -1418,6 +1436,12 @@ body {
         border-radius: 0;
     }
     
+    /* FIXED: Remove map overlay effects on mobile */
+    .map-container::before,
+    .map-container::after {
+        display: none;
+    }
+    
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: var(--space-3);
@@ -1434,8 +1458,9 @@ body {
         padding: var(--space-4);
     }
     
+    /* FIXED: Mobile floating stats positioning */
     .floating-stats {
-        top: var(--space-4);
+        top: calc(var(--space-4) + 60px); /* Account for mobile header */
         right: var(--space-4);
         bottom: auto;
         padding: var(--space-3);
@@ -1529,7 +1554,7 @@ body {
         flex-direction: column;
         gap: var(--space-2);
         right: var(--space-3);
-        top: var(--space-3);
+        top: calc(var(--space-3) + 60px); /* Account for mobile header */
     }
     
     .search-container {
@@ -1582,6 +1607,10 @@ body {
         top: 50px;
         height: calc(100vh - 50px);
     }
+    
+    .floating-stats {
+        top: calc(var(--space-4) + 50px); /* Account for smaller mobile header */
+    }
 }
 
 /* Prevent zoom on input for iOS */
@@ -1589,7 +1618,7 @@ body {
     input,
     textarea,
     select {
-        font-size: 16px; /* Prevents zoom on iOS */
+        font-size: 16px;
     }
 }
 
@@ -1641,6 +1670,10 @@ body {
     .mobile-action-btn {
         bottom: calc(var(--space-6) + env(safe-area-inset-bottom));
     }
+    
+    .floating-stats {
+        top: calc(var(--space-4) + 60px + env(safe-area-inset-top));
+    }
 }
 
 /* ===== Utility Classes ===== */
@@ -1655,15 +1688,4 @@ body {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
-}
-
-/* Enhanced map visual effects */
-.map-soft-overlay {
-    background: linear-gradient(
-        135deg,
-        rgba(255, 255, 255, 0.1) 0%,
-        rgba(255, 255, 255, 0.05) 50%,
-        rgba(255, 255, 255, 0.1) 100%
-    );
-    mix-blend-mode: soft-light;
 }
