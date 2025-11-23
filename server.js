@@ -1,32 +1,28 @@
-import express from 'express';
-import { MongoClient, ObjectId } from 'mongodb';
-import cors from 'cors';
-import path from 'path';
-import { fileURLToPath } from 'url';
+const express = require('express');
+const { MongoClient, ObjectId } = require('mongodb');
+const cors = require('cors');
+const path = require('path');
 
 const app = express();
-const PORT = 8000;
-
-// Fix for __dirname in ES modules
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 app.use(express.static('.')); // Serve static files
 
-// MongoDB connection - REPLACE YOUR_PASSWORD with your actual password
-const MONGODB_URI = 'mongodb+srv://tusharj2004:uHprHlem182DMmtp@campuscush.2thchap.mongodb.net/?retryWrites=true&w=majority&appName=campuscush';
+// MongoDB connection
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://tusharj2004:uHprHlem182DMmtp@campuscush.2thchap.mongodb.net/?retryWrites=true&w=majority&appName=campuscush';
 const DB_NAME = 'campusCrush';
 
 let db = null;
+let client = null;
 
 async function connectToDatabase() {
     if (db) return db;
     
     try {
-        const client = await MongoClient.connect(MONGODB_URI);
+        client = await MongoClient.connect(MONGODB_URI);
         db = client.db(DB_NAME);
         console.log('✅ Connected to MongoDB');
         return db;
@@ -79,6 +75,11 @@ app.post('/api/compliments/:id/like', async (req, res) => {
         const { id } = req.params;
         const database = await connectToDatabase();
         
+        // Validate ObjectId
+        if (!ObjectId.isValid(id)) {
+            return res.status(400).json({ error: 'Invalid compliment ID' });
+        }
+        
         const result = await database.collection('compliments').updateOne(
             { _id: new ObjectId(id) },
             { $inc: { likes: 1 } }
@@ -111,13 +112,31 @@ app.post('/api/feedback', async (req, res) => {
     }
 });
 
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+    res.json({ status: 'OK', timestamp: new Date().toISOString() });
+});
+
 // Serve the main page
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://localhost:${PORT}`);
-    console.log('💝 Campus Crush is ready!');
-    console.log('📝 Make sure to replace YOUR_PASSWORD in server.js with your MongoDB password');
+// Handle all other routes - serve index.html for client-side routing
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
+
+// Error handling middleware
+app.use((error, req, res, next) => {
+    console.error('Unhandled error:', error);
+    res.status(500).json({ error: 'Internal server error' });
+});
+
+// Start server
+app.listen(PORT, () => {
+    console.log(`🚀 Server running on port ${PORT}`);
+    console.log('💝 Campus Compliments is ready!');
+});
+
+module.exports = app;
