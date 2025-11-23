@@ -1,13 +1,27 @@
 {
-    "version": 2,
-    "buildCommand": "npm run build",
-    "outputDirectory": "out",
-    "functions": {
-        "api/**/*.js": {
-            "runtime": "@vercel/node@latest"
-        }
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@vercel/static"
     },
-    "env": {
-        "MONGODB_URI": "@mongodb_uri"
+    {
+      "src": "*.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.json",
+      "use": "@vercel/static"
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
