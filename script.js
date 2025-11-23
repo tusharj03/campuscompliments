@@ -20,6 +20,7 @@ class CampusCompliments {
             likedCompliments: new Set()
         };
 
+        this.mobileMenuOpen = false;
         this.elements = {};
         this.API_BASE = '/api';
         this.init();
@@ -32,6 +33,7 @@ class CampusCompliments {
             await this.loadData();
             this.initializeMap();
             this.setupEventListeners();
+            this.setupOrientationHandling();
             this.renderUI();
             this.showToast('Click "Drop a Pin" to share a compliment anywhere on campus!', 'info');
         } catch (error) {
@@ -43,6 +45,11 @@ class CampusCompliments {
     initializeElements() {
         this.elements = {
             app: document.getElementById('app'),
+            
+            // Mobile Elements
+            mobileMenuBtn: document.getElementById('mobileMenuBtn'),
+            sidebar: document.getElementById('sidebar'),
+            mobileDropPinBtn: document.getElementById('mobileDropPinBtn'),
             
             // Navigation
             navItems: document.querySelectorAll('.nav-item'),
@@ -196,7 +203,10 @@ class CampusCompliments {
             pitch: 0,
             bearing: 0,
             antialias: true,
-            attributionControl: false
+            attributionControl: false,
+            touchZoomRotate: true, // Enable touch interactions
+            dragRotate: false, // Disable rotation for better mobile UX
+            trackResize: true // Automatically track resize
         });
 
         // Add minimal navigation control
@@ -210,6 +220,12 @@ class CampusCompliments {
             this.setupMapClickHandler();
             this.updateMapCursor();
         });
+
+        // Handle map errors
+        this.state.map.on('error', (e) => {
+            console.error('Map error:', e);
+            this.showToast('Map loading issue - please refresh', 'error');
+        });
     }
 
     setupMapClickHandler() {
@@ -218,6 +234,18 @@ class CampusCompliments {
 
             const { lng, lat } = e.lngLat;
             await this.startLocationSelection([lng, lat]);
+        });
+
+        // Add touch support for better mobile interaction
+        this.state.map.on('touchstart', (e) => {
+            if (this.state.isSelectingLocation && e.originalEvent.touches.length === 1) {
+                // Prevent default to avoid page scrolling
+                e.originalEvent.preventDefault();
+                
+                const point = e.point;
+                const lngLat = this.state.map.unproject(point);
+                this.startLocationSelection([lngLat.lng, lngLat.lat]);
+            }
         });
     }
 
@@ -237,6 +265,7 @@ class CampusCompliments {
         
         if (this.state.isSelectingLocation) {
             this.showToast('Click anywhere on campus to place a compliment', 'info');
+            this.closeMobileMenu(); // Close sidebar on mobile when placing pin
         } else {
             this.showToast('Location selection cancelled', 'info');
             this.clearSelectionMarker();
@@ -245,12 +274,18 @@ class CampusCompliments {
 
     updateDropPinButton() {
         const dropPinBtn = this.elements.dropPinBtn;
+        const mobileDropPinBtn = this.elements.mobileDropPinBtn;
+        
         if (this.state.isSelectingLocation) {
             dropPinBtn.classList.add('active');
             dropPinBtn.innerHTML = 'Cancel Pin Drop';
+            mobileDropPinBtn.classList.add('active');
+            mobileDropPinBtn.innerHTML = '×';
         } else {
             dropPinBtn.classList.remove('active');
             dropPinBtn.innerHTML = 'Drop a Pin';
+            mobileDropPinBtn.classList.remove('active');
+            mobileDropPinBtn.innerHTML = '+';
         }
     }
 
@@ -276,6 +311,7 @@ class CampusCompliments {
             .setLngLat(coordinates)
             .addTo(this.state.map);
 
+        // Center map on selection with mobile-optimized zoom
         this.state.map.flyTo({
             center: coordinates,
             zoom: 17,
@@ -475,6 +511,9 @@ class CampusCompliments {
         this.elements.submitCompliment.disabled = true;
 
         this.elements.complimentModal.classList.remove('hidden');
+        
+        // Prevent body scroll when modal is open on mobile
+        document.body.style.overflow = 'hidden';
     }
 
     async submitCompliment() {
@@ -562,6 +601,8 @@ class CampusCompliments {
 
     hideComplimentModal() {
         this.elements.complimentModal.classList.add('hidden');
+        // Restore body scroll
+        document.body.style.overflow = '';
     }
 
     clearSelectionMarker() {
@@ -572,6 +613,10 @@ class CampusCompliments {
     }
 
     setupEventListeners() {
+        // Mobile Menu
+        this.elements.mobileMenuBtn.addEventListener('click', () => this.toggleMobileMenu());
+        this.elements.mobileDropPinBtn.addEventListener('click', () => this.startDropPinMode());
+
         // Navigation
         this.elements.navItems.forEach(item => {
             item.addEventListener('click', (e) => {
@@ -610,6 +655,63 @@ class CampusCompliments {
             this.elements.feedbackCharCount.textContent = length;
         });
         this.elements.submitFeedback.addEventListener('click', () => this.submitFeedback());
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (this.mobileMenuOpen && 
+                !this.elements.sidebar.contains(e.target) && 
+                !this.elements.mobileMenuBtn.contains(e.target)) {
+                this.closeMobileMenu();
+            }
+        });
+
+        // Handle escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                if (this.mobileMenuOpen) {
+                    this.closeMobileMenu();
+                }
+                if (!this.elements.complimentModal.classList.contains('hidden')) {
+                    this.cancelCompliment();
+                }
+            }
+        });
+    }
+
+    toggleMobileMenu() {
+        this.mobileMenuOpen = !this.mobileMenuOpen;
+        this.elements.sidebar.classList.toggle('active', this.mobileMenuOpen);
+        this.elements.mobileMenuBtn.classList.toggle('active', this.mobileMenuOpen);
+        
+        // Close menu when clicking on a nav item
+        if (this.mobileMenuOpen) {
+            this.elements.navItems.forEach(item => {
+                item.addEventListener('click', () => this.closeMobileMenu(), { once: true });
+            });
+        }
+    }
+
+    closeMobileMenu() {
+        this.mobileMenuOpen = false;
+        this.elements.sidebar.classList.remove('active');
+        this.elements.mobileMenuBtn.classList.remove('active');
+    }
+
+    setupOrientationHandling() {
+        // Handle orientation changes
+        window.addEventListener('orientationchange', () => this.handleOrientationChange());
+        window.addEventListener('resize', () => this.handleOrientationChange());
+    }
+
+    handleOrientationChange() {
+        // Debounce resize events
+        clearTimeout(this.resizeTimeout);
+        this.resizeTimeout = setTimeout(() => {
+            if (this.state.map) {
+                this.state.map.resize();
+                this.showToast('Map adjusted for screen size', 'info', 2000);
+            }
+        }, 250);
     }
 
     async submitFeedback() {
@@ -639,6 +741,7 @@ class CampusCompliments {
                 this.elements.feedbackEmail.value = '';
                 this.elements.feedbackCharCount.textContent = '0';
                 this.showToast('Thank you for your feedback!', 'success');
+                this.closeMobileMenu();
             } else {
                 throw new Error('Failed to submit feedback');
             }
@@ -662,7 +765,16 @@ class CampusCompliments {
         if (tabName === 'feed') {
             this.renderCompliments();
         } else if (tabName === 'map') {
-            setTimeout(() => this.state.map.resize(), 100);
+            setTimeout(() => {
+                if (this.state.map) {
+                    this.state.map.resize();
+                }
+            }, 100);
+        }
+
+        // Close mobile menu after switching tabs
+        if (this.mobileMenuOpen) {
+            this.closeMobileMenu();
         }
     }
 
@@ -673,6 +785,13 @@ class CampusCompliments {
         }
 
         this.showToast('Finding your location...', 'info');
+
+        // Mobile-specific geolocation options
+        const options = {
+            enableHighAccuracy: true,
+            timeout: 10000,
+            maximumAge: 60000
+        };
 
         navigator.geolocation.getCurrentPosition(
             (position) => {
@@ -696,13 +815,28 @@ class CampusCompliments {
                 
                 this.state.map.flyTo({
                     center: this.state.userLocation,
-                    zoom: 16
+                    zoom: 16,
+                    duration: 1500
                 });
                 this.showToast('Location found', 'success');
+                this.closeMobileMenu();
             },
             (error) => {
-                this.showToast('Unable to find location', 'error');
-            }
+                let errorMessage = 'Unable to find location';
+                switch(error.code) {
+                    case error.PERMISSION_DENIED:
+                        errorMessage = 'Location access denied. Please enable location services.';
+                        break;
+                    case error.POSITION_UNAVAILABLE:
+                        errorMessage = 'Location information unavailable.';
+                        break;
+                    case error.TIMEOUT:
+                        errorMessage = 'Location request timed out.';
+                        break;
+                }
+                this.showToast(errorMessage, 'error');
+            },
+            options
         );
     }
 
@@ -853,7 +987,8 @@ class CampusCompliments {
                 .setPopup(new mapboxgl.Popup({ 
                     offset: 25,
                     className: 'vintage-popup',
-                    maxWidth: '400px'
+                    maxWidth: '400px',
+                    closeOnClick: false // Better for mobile
                 }).setHTML(popupContent))
                 .addTo(this.state.map);
 
@@ -926,7 +1061,8 @@ class CampusCompliments {
                 const newPopup = new mapboxgl.Popup({ 
                     offset: 25,
                     className: 'vintage-popup',
-                    maxWidth: '400px'
+                    maxWidth: '400px',
+                    closeOnClick: false
                 }).setHTML(popupContent);
                 
                 marker.setPopup(newPopup);
@@ -983,7 +1119,7 @@ class CampusCompliments {
         return text.length <= maxLength ? text : text.substring(0, maxLength - 3) + '...';
     }
 
-    showToast(message, type = 'info') {
+    showToast(message, type = 'info', duration = 4000) {
         const toast = document.createElement('div');
         toast.className = `toast ${type}`;
         toast.textContent = message;
@@ -992,7 +1128,7 @@ class CampusCompliments {
         
         setTimeout(() => {
             toast.remove();
-        }, 4000);
+        }, duration);
     }
 
     saveData() {
@@ -1011,5 +1147,18 @@ class CampusCompliments {
     }
 }
 
-// Initialize app
-const app = new CampusCompliments();
+// Initialize app when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    const app = new CampusCompliments();
+    window.app = app; // Make app globally available for onclick handlers
+});
+
+// Handle page visibility changes for better mobile performance
+document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && window.app && window.app.state.map) {
+        // Refresh map when returning to the app
+        setTimeout(() => {
+            window.app.state.map.resize();
+        }, 100);
+    }
+});

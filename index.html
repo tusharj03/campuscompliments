@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Campus Compliments • Spread Positivity</title>
     <meta name="description" content="Anonymous compliments that make campus brighter">
+    <meta name="theme-color" content="#8B7355">
     
     <!-- Mapbox -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
@@ -21,10 +22,22 @@
         <!-- Background Texture -->
         <div class="texture-overlay"></div>
 
+        <!-- Mobile Header -->
+        <div class="mobile-header">
+            <div class="mobile-logo">
+                <h1>Campus Compliments</h1>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
         <!-- Main Layout -->
         <div class="layout">
             <!-- Sidebar -->
-            <aside class="sidebar">
+            <aside class="sidebar" id="sidebar">
                 <div class="sidebar-header">
                     <div class="logo">
                         <div class="logo-text">
@@ -112,7 +125,7 @@
                                 class="form-input textarea" 
                                 placeholder="What do you love? What can we improve?..."
                                 maxlength="500"
-                                rows="6"
+                                rows="4"
                             ></textarea>
                             <div class="form-meta">
                                 <span class="char-count"><span id="feedbackCharCount">0</span>/500</span>
@@ -151,6 +164,11 @@
                             <span class="stat-label">Today</span>
                         </div>
                     </div>
+
+                    <!-- Mobile Action Button -->
+                    <button class="mobile-action-btn" id="mobileDropPinBtn">
+                        <span>+</span>
+                    </button>
                 </div>
             </main>
         </div>
