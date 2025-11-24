@@ -763,10 +763,11 @@ body {
 }
 
 /* ===== Mobile Action Button ===== */
+/* ===== Mobile Action Button ===== */
 .mobile-action-btn {
     display: none;
     position: absolute;
-    bottom: var(--space-6);
+    bottom: calc(var(--space-6) + 20px); /* Moved up by 20px */
     right: var(--space-6);
     width: 60px;
     height: 60px;
@@ -781,6 +782,20 @@ body {
     transition: var(--transition);
     align-items: center;
     justify-content: center;
+}
+
+/* iPhone-specific adjustment for better positioning */
+@media (max-width: 768px) {
+    .mobile-action-btn {
+        bottom: calc(var(--space-6) + 30px); /* Even higher on mobile */
+    }
+}
+
+/* Extra adjustment for very small screens */
+@media (max-width: 375px) {
+    .mobile-action-btn {
+        bottom: calc(var(--space-6) + 40px); /* Highest on small iPhones */
+    }
 }
 
 .mobile-action-btn:hover {
